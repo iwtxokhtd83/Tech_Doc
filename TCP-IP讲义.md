@@ -1373,3 +1373,8 @@ while (true) {
 5. **实战排障**：熟悉 `ss`、`tcpdump`、`dig` 的常用参数，面试时很加分
 
 > 祝笔试顺利！
+
+## 📚 课后练习
+
+1. **Socket**：使用Python写一个socket server，并写一个socket client，让它们建立连接通信收发消息。
+2. **WireShark**：在本机安装wireshark并尝试抓包分析。
