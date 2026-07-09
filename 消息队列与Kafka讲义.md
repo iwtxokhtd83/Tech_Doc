@@ -1262,7 +1262,7 @@ Kafka topic: orders.created   (partition by order_id, replication 3)
 ## 📚 学习建议
 
 1. **先搞懂分区与副本**：Kafka 90% 的概念围绕它们
-2. **亲手搭一个本地集群**：`docker-compose` 起 3 个 Broker + KRaft，写 demo 感受参数
+2. **亲手搭一个本地集群**：`docker-compose` 起 3 个 Broker + KRaft，写 demo 感受参数，使用一门编程语言连接Kafka，进行消息的读写。
 3. **读官方文档**：`kafka.apache.org/documentation/` 是权威源头
 4. **看源码 / KIP**：每个新特性都有 KIP（Kafka Improvement Proposal），思路清晰
 5. **监控先行**：Lag / ISR / 请求延迟的 Grafana 面板装好再上生产
