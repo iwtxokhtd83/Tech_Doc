@@ -1513,7 +1513,8 @@ WHERE cnt_1h >= 3;
 
 ## 📚 学习建议
 
-1. **动手为主**：装一个本地 MySQL 8，造 100 万行数据，测索引/事务/锁的实际行为
+1. **动手为主**：装一个本地 MySQL 8，造 100 万行数据，测索引/事务/锁的实际行为, 也可以搭建一个MySQL主从复制，通过DB Client 工具连接MySQL练习其指令，或者在本机使用mysql client连接mysql sever练习sql。
+使用一门编程语言写一个db client连接你的mysql server并写代码管理DB data(CRUD)
 2. **读执行计划**：`EXPLAIN` 是 SQL 优化的第一视角
 3. **一个 SQL 多种写法**：子查询 / JOIN / 窗口函数，比较性能
 4. **看日志**：慢查询日志、binlog、`SHOW ENGINE INNODB STATUS` 是 DBA 的三件套
